@@ -3,9 +3,6 @@ import './App.css';
 import chatMessages from './data/messages.json';
 import ChatLog from './components/ChatLog';
 
-
-// import Bubble from './components/Bubble';
-
 class App extends Component {
   render() {
     console.log(chatMessages);
