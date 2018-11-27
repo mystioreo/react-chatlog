@@ -6,10 +6,10 @@ const Bubble = (props) => {
 
   return (<article className="chat-entry">
             <p className="entry-name">{props.sender}</p>
-            <section className="entry-bubble">
+            <div className="entry-bubble">
                 <p className="entry-body">{props.body}</p>
                 <p className="entry-time"><Timestamp time={props.timeStamp}/></p>
-            </section>
+            </div>
           </article>)
 }
 
