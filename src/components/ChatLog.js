@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Timestamp from './Timestamp';
 import Bubble from './Bubble';
 
 const ChatLog = (props) => {

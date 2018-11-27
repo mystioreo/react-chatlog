@@ -6,7 +6,7 @@ const Bubble = (props) => {
 
 
 
-  return (<article className={"chat-entry" + (props.sender == "Vladimir" ? " local" : " remote")}>
+  return (<article className={"chat-entry" + (props.sender === "Vladimir" ? " local" : " remote")}>
             <p className="entry-name">{props.sender}</p>
             <div className="entry-bubble">
                 <p className="entry-body">{props.body}</p>
